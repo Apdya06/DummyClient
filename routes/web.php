@@ -23,9 +23,3 @@ $router->get('/employee/{id}', 'DummyController@getRequestJsonId');
 $router->get('/create', 'DummyController@postRequestJson');
 $router->get('/update/{id}', 'DummyController@updateRequestJson');
 $router->get('/delete/{id}', 'DummyController@deleteRequestJson');
-
-$router->get('/posts/get-request-xml', 'DummyController@getRequestXml');
-$router->get('/posts/post-request-json', 'DummyController@postRequestJson');
-$router->get('/posts/post-request-xml', 'DummyController@postRequestXml');
-
-
